@@ -1,0 +1,2606 @@
+Microchip MPLAB XC8 Compiler V1.36 ()
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.36\dat\en_msgs.txt -cs \
+  -h+dist/default/production\SMART_BELL_NOKIA.production.sym \
+  --cmf=dist/default/production\SMART_BELL_NOKIA.production.cmf -z \
+  -Q16F877A -oC:\Users\SYSTEM~1\AppData\Local\Temp\s7po.2 \
+  -Mdist/default/production/SMART_BELL_NOKIA.production.map -E1 -ver=XC8 \
+  -ASTACK=0110h-016fh -pstack=STACK -ACODE=00h-07FFhx3,01800h-01F37h \
+  -ASTRCODE=00h-01F37h -ASTRING=00h-0FFhx31,01F00h-01F37h \
+  -ACONST=00h-0FFhx31,01F00h-01F37h -AENTRY=00h-0FFhx31,01F00h-01F37h \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -preset_vec=00h,intentry,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=CODE -ACONFIG=02007h-02007h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\SYSTEM~1\AppData\Local\Temp\s7po.obj \
+  dist/default/production\SMART_BELL_NOKIA.production.obj 
+
+Object code version is 3.11
+
+Machine type is 16F877A
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\SYSTEM~1\AppData\Local\Temp\s7po.obj
+                end_init                              0        0        3        0       0
+                config                             2007     2007        1     400E       0
+dist/default/production\SMART_BELL_NOKIA.production.obj
+                cinit                               7C7      7C7       39      F8E       0
+                text45                              AB9      AB9       E5     1572       0
+                text44                             1266     1266       33     24CC       0
+                text43                               1D       1D      115       3A       0
+                text42                             11EB     11EB       22     23D6       0
+                text41                              85E      85E       B5     10BC       0
+                text40                             134F     134F       48     269E       0
+                text39                             1299     1299       36     2532       0
+                text38                             1E94     1E94       28     3D28       0
+                text37                             142A     142A       55     2854       0
+                text36                              913      913       CF     1226       0
+                text35                             1397     1397       48     272E       0
+                text34                             14D8     14D8       63     29B0       0
+                text33                             12CF     12CF       3B     259E       0
+                text32                             1DD7     1DD7       1D     3BAE       0
+                text31                             1D76     1D76       11     3AEC       0
+                text30                             1EBC     1EBC       29     3D78       0
+                text29                             120D     120D       2B     241A       0
+                text28                             1E30     1E30       1F     3C60       0
+                text27                             1DF4     1DF4       1E     3BE8       0
+                text26                             1D3D     1D3D        5     3A7A       0
+                text25                             1D5E     1D5E        C     3ABC       0
+                text24                             147F     147F       59     28FE       0
+                text23                             13DF     13DF       4B     27BE       0
+                text22                             15A2     15A2       68     2B44       0
+                text21                             1238     1238       2E     2470       0
+                text20                             1DAA     1DAA       15     3B54       0
+                text19                             1672     1672       7E     2CE4       0
+                text18                             130A     130A       45     2614       0
+                text17                             1D53     1D53        B     3AA6       0
+                text16                             1E12     1E12       1E     3C24       0
+                text15                             1E4F     1E4F       21     3C9E       0
+                text14                             160A     160A       68     2C14       0
+                text13                             16F0     16F0       81     2DE0       0
+                text12                              CE9      CE9      317     19D2       0
+                text11                              9E2      9E2       D7     13C4       0
+                text10                              B9E      B9E      14B     173C       0
+                text9                              1E70     1E70       24     3CE0       0
+                text8                              1EE5     1EE5       29     3DCA       0
+                text7                              1DBF     1DBF       18     3B7E       0
+                text6                              1771     1771       8F     2EE2       0
+                text5                               132      132      1A7      264       0
+                text4                               800      800       5E      F8E       0
+                text3                              153B     153B       67     2A76       0
+                text2                              1D98     1D98       12     3B30       0
+                text1                              1F0E     1F0E       2A     3E1C       0
+                maintext                            2D9      2D9      4EE      5B2       0
+                cstackBANK0                          20       20       32       20       1
+                cstackCOMMON                         70       70        E       70       1
+                cstackBANK1                          A0       A0       31       A0       1
+                inittext                           1D87     1D87       11     3B0E       0
+                clrtext                            1D42     1D42        8     3A84       0
+                dataBANK3                           190      190        C      190       1
+                dataBANK1                            D1       D1       1A       A0       1
+                bssBANK1                             EB       EB        3       A0       1
+                dataBANK0                            66       66        9       20       1
+                bssBANK0                             52       52       14       20       1
+                stringtext                         1000     1000      1EB       20       0
+                idataBANK3                         1D6A     1D6A        C     3AD4       0
+                idataBANK1                            3        3       1A        0       0
+                idataBANK0                         1D4A     1D4A        9     3A94       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              0        0        3         0
+                cinit                               7C7      7C7       39         0
+                text45                              AB9      AB9       E5         0
+                text44                             1266     1266       33         0
+                text43                               1D       1D      115         0
+                text42                             11EB     11EB       22         0
+                text41                              85E      85E       B5         0
+                text40                             134F     134F       48         0
+                text39                             1299     1299       36         0
+                text38                             1E94     1E94       28         0
+                text37                             142A     142A       55         0
+                text36                              913      913       CF         0
+                text35                             1397     1397       48         0
+                text34                             14D8     14D8       63         0
+                text33                             12CF     12CF       3B         0
+                text32                             1DD7     1DD7       1D         0
+                text31                             1D76     1D76       11         0
+                text30                             1EBC     1EBC       29         0
+                text29                             120D     120D       2B         0
+                text28                             1E30     1E30       1F         0
+                text27                             1DF4     1DF4       1E         0
+                text26                             1D3D     1D3D        5         0
+                text25                             1D5E     1D5E        C         0
+                text24                             147F     147F       59         0
+                text23                             13DF     13DF       4B         0
+                text22                             15A2     15A2       68         0
+                text21                             1238     1238       2E         0
+                text20                             1DAA     1DAA       15         0
+                text19                             1672     1672       7E         0
+                text18                             130A     130A       45         0
+                text17                             1D53     1D53        B         0
+                text16                             1E12     1E12       1E         0
+                text15                             1E4F     1E4F       21         0
+                text14                             160A     160A       68         0
+                text13                             16F0     16F0       81         0
+                text12                              CE9      CE9      317         0
+                text11                              9E2      9E2       D7         0
+                text10                              B9E      B9E      14B         0
+                text9                              1E70     1E70       24         0
+                text8                              1EE5     1EE5       29         0
+                text7                              1DBF     1DBF       18         0
+                text6                              1771     1771       8F         0
+                text5                               132      132      1A7         0
+                text4                               800      800       5E         0
+                text3                              153B     153B       67         0
+                text2                              1D98     1D98       12         0
+                text1                              1F0E     1F0E       2A         0
+                maintext                            2D9      2D9      4EE         0
+                inittext                           1D87     1D87       11         0
+                clrtext                            1D42     1D42        8         0
+                idataBANK3                         1D6A     1D6A        C         0
+                idataBANK1                            3        3       1A         0
+                idataBANK0                         1D4A     1D4A        9         0
+
+        CLASS   STRCODE        
+                stringtext                         1000     1000      1EB         0
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        E         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       32         1
+                dataBANK0                            66       66        9         1
+                bssBANK0                             52       52       14         1
+
+        CLASS   BANK1          
+                cstackBANK1                          A0       A0       31         1
+                dataBANK1                            D1       D1       1A         1
+                bssBANK1                             EB       EB        3         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+                dataBANK3                           190      190        C         1
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        1         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  00001D  00001D         0       0  CODE        2
+                cstackBANK0                    000020  00004F  00006F        20       1  BANK0       1
+                text43                         00001D  000115  000132        3A       0  CODE        2
+                cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
+                cstackBANK1                    0000A0  00004E  0000EE        A0       1  BANK1       1
+                dataBANK3                      000190  00000C  00019C       190       1  BANK3       1
+                text5                          000132  0001A7  0002D9       264       0  CODE        2
+                maintext                       0002D9  0004EE  0007C7       5B2       0  CODE        2
+                cinit                          0007C7  000097  00085E       F8E       0  CODE        2
+                text41                         00085E  0000B5  000913      10BC       0  CODE        2
+                text36                         000913  0000CF  0009E2      1226       0  CODE        2
+                text11                         0009E2  0000D7  000AB9      13C4       0  CODE        2
+                text45                         000AB9  0000E5  000B9E      1572       0  CODE        2
+                text10                         000B9E  00014B  000CE9      173C       0  CODE        2
+                text12                         000CE9  000317  001000      19D2       0  CODE        2
+                stringtext                     001000  0001EB  0011EB        20       0  STRCODE     2
+                text42                         0011EB  000022  00120D      23D6       0  CODE        2
+                text29                         00120D  00002B  001238      241A       0  CODE        2
+                text21                         001238  00002E  001266      2470       0  CODE        2
+                text44                         001266  000033  001299      24CC       0  CODE        2
+                text39                         001299  000036  0012CF      2532       0  CODE        2
+                text33                         0012CF  00003B  00130A      259E       0  CODE        2
+                text18                         00130A  000045  00134F      2614       0  CODE        2
+                text40                         00134F  000048  001397      269E       0  CODE        2
+                text35                         001397  000048  0013DF      272E       0  CODE        2
+                text23                         0013DF  00004B  00142A      27BE       0  CODE        2
+                text37                         00142A  000055  00147F      2854       0  CODE        2
+                text24                         00147F  000059  0014D8      28FE       0  CODE        2
+                text34                         0014D8  000063  00153B      29B0       0  CODE        2
+                text3                          00153B  000067  0015A2      2A76       0  CODE        2
+                text22                         0015A2  000068  00160A      2B44       0  CODE        2
+                text14                         00160A  000068  001672      2C14       0  CODE        2
+                text19                         001672  00007E  0016F0      2CE4       0  CODE        2
+                text13                         0016F0  000081  001771      2DE0       0  CODE        2
+                text6                          001771  00008F  001800      2EE2       0  CODE        2
+                text26                         001D3D  000005  001D42      3A7A       0  CODE        2
+                clrtext                        001D42  000008  001D4A      3A84       0  CODE        2
+                idataBANK0                     001D4A  000009  001D53      3A94       0  CODE        2
+                text17                         001D53  00000B  001D5E      3AA6       0  CODE        2
+                text25                         001D5E  00000C  001D6A      3ABC       0  CODE        2
+                idataBANK3                     001D6A  00000C  001D76      3AD4       0  CODE        2
+                text31                         001D76  000011  001D87      3AEC       0  CODE        2
+                inittext                       001D87  000011  001D98      3B0E       0  CODE        2
+                text2                          001D98  000012  001DAA      3B30       0  CODE        2
+                text20                         001DAA  000015  001DBF      3B54       0  CODE        2
+                text7                          001DBF  000018  001DD7      3B7E       0  CODE        2
+                text32                         001DD7  00001D  001DF4      3BAE       0  CODE        2
+                text27                         001DF4  00001E  001E12      3BE8       0  CODE        2
+                text16                         001E12  00001E  001E30      3C24       0  CODE        2
+                text28                         001E30  00001F  001E4F      3C60       0  CODE        2
+                text15                         001E4F  000021  001E70      3C9E       0  CODE        2
+                text9                          001E70  000024  001E94      3CE0       0  CODE        2
+                text38                         001E94  000028  001EBC      3D28       0  CODE        2
+                text30                         001EBC  000029  001EE5      3D78       0  CODE        2
+                text8                          001EE5  000029  001F0E      3DCA       0  CODE        2
+                text1                          001F0E  00002A  001F38      3E1C       0  CODE        2
+                config                         002007  000001  002008      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            006F-006F              1           1
+        BANK1            00EE-00EF              2           1
+        BANK2            0110-016F             60           1
+        BANK3            019C-01EF             54           1
+        CODE             1800-1D3C            53D           2
+        CONST            1800-1D3C            100           2
+        EEDATA           2100-21FF            100           2
+        ENTRY            1800-1D3C            100           2
+        IDLOC            2000-2003              4           2
+        RAM              006F-006F              1           1
+                         00EE-00EF              2
+                         0110-016F             60
+                         019C-01EF             54
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STACK            0110-016F             60           1
+        STRCODE          1800-1D3C            53D           2
+        STRING           1800-1D3C            100           2
+
+                                  Symbol Table
+
+?___awdiv                           cstackCOMMON 0070
+?___awmod                           cstackCOMMON 0070
+?___lldiv                           cstackCOMMON 0070
+?___wmul                            cstackCOMMON 0070
+BCD2Binary@aa                       cstackCOMMON 0077
+BCD2Binary@rr                       cstackCOMMON 0076
+BCD2Binary@tt                       cstackCOMMON 0078
+BCD2LowerCh@bcd                     cstackCOMMON 0070
+BCD2UpperCh@bcd                     cstackCOMMON 0071
+Binary2BCD@aa                       cstackBANK0  0020
+Binary2BCD@t1                       cstackBANK0  0021
+Binary2BCD@t2                       cstackBANK0  0022
+DS1302_init@CE                      cstackCOMMON 007B
+DS1302_init@CLK                     cstackBANK0  0020
+DS1302_init@DAT                     cstackCOMMON 007A
+DS1302_init@x                       cstackBANK0  0021
+DS1302_read@cmd                     cstackCOMMON 0078
+DS1302_read@dataRead                cstackCOMMON 0079
+DS1302_write@cmd                    cstackCOMMON 0078
+DS1302_write@data                   cstackCOMMON 0077
+KeypadSetting@InputType             cstackCOMMON 007B
+KeypadSetting@KColPinsA             cstackCOMMON 0073
+KeypadSetting@KColss                cstackCOMMON 0075
+KeypadSetting@KMapA                 cstackCOMMON 0076
+KeypadSetting@KRowPinsA             cstackCOMMON 0072
+KeypadSetting@KRowss                cstackCOMMON 0074
+KeypadSetting@KeyLoad               cstackCOMMON 007C
+KeypadSetting@indicatorPin          cstackCOMMON 0077
+LCD5110_clear@pointer               cstackCOMMON 007C
+LCD5110_fillScreen@bytez            cstackCOMMON 0079
+LCD5110_fillScreen@pointer          cstackCOMMON 007A
+LCD5110_inWrite@coll                cstackCOMMON 007A
+LCD5110_inWrite@dat                 cstackCOMMON 007B
+LCD5110_inWrite@roww                cstackCOMMON 007D
+LCD5110_internalWrite@Data__Command cstackCOMMON 0075
+LCD5110_internalWrite@_data         cstackCOMMON 0076
+LCD5110_internalWrite@dataByte      cstackCOMMON 0072
+LCD5110_internalWrite@i             cstackCOMMON 0077
+LCD5110_setting@CE                  cstackCOMMON 0079
+LCD5110_setting@Clk                 cstackCOMMON 007C
+LCD5110_setting@DC                  cstackCOMMON 007A
+LCD5110_setting@DIn                 cstackCOMMON 007B
+LCD5110_setting@Rset                cstackCOMMON 007D
+LCD5110_settings@CE                 cstackCOMMON 0074
+LCD5110_settings@Clk                cstackCOMMON 0077
+LCD5110_settings@DC                 cstackCOMMON 0073
+LCD5110_settings@DIn                cstackCOMMON 0072
+LCD5110_settings@Rset               cstackCOMMON 0075
+LCD5110_startCol@col                cstackCOMMON 0079
+LCD5110_writeCP@_data               cstackBANK0  002C
+LCD5110_writeCP@character           cstackBANK0  0024
+LCD5110_writeCP@fontOffset          cstackBANK0  0023
+LCD5110_writeCP@fontWidth           cstackBANK0  0022
+LCD5110_writeCP@pos_x               cstackBANK0  002D
+LCD5110_writeCP@userFont            cstackBANK0  0020
+LCD5110_writeText@characters        cstackBANK0  0034
+LCD5110_writeText@col               cstackBANK0  0033
+LCD5110_writeText@dispType          cstackBANK0  0036
+LCD5110_writeText@fontOffset        cstackBANK0  0031
+LCD5110_writeText@fontWidth         cstackBANK0  0030
+LCD5110_writeText@row               cstackBANK0  0032
+LCD5110_writeText@userFont          cstackBANK0  002E
+PinSelect@segState                  cstackCOMMON 0070
+PinSelect@selPins                   cstackCOMMON 0071
+RAM_read@address                    cstackCOMMON 007B
+RAM_read@data                       cstackCOMMON 007C
+RAM_write@address                   cstackBANK0  0023
+RAM_write@data                      cstackCOMMON 007C
+ReadArrayFromRAM@hr                 cstackBANK0  0024
+ReadArrayFromRAM@mins               cstackBANK0  0025
+ReadArrayFromRAM@mytime             cstackBANK0  0026
+ReadArrayFromRAM@timearray          cstackBANK0  0023
+SetupTime@Keys                      cstackBANK0  0045
+SetupTime@hr                        cstackBANK0  0049
+SetupTime@mins                      cstackBANK0  004A
+SetupTime@terminated                cstackBANK0  0046
+SetupTime@timearray                 cstackBANK0  004B
+SetupTime@x                         cstackBANK0  0047
+SetupTime@x_568                     cstackBANK0  0048
+Shift_out_byte_right@data           cstackCOMMON 0074
+Shift_out_byte_right@i              cstackCOMMON 0075
+Time_read@hr                        cstackCOMMON 007D
+Time_read@min                       cstackCOMMON 007A
+Time_read@sec                       cstackCOMMON 007B
+Time_write@hr                       cstackBANK0  0024
+Time_write@min                      cstackCOMMON 007C
+Time_write@seconds                  cstackCOMMON 007D
+Write_ds1302_byte@cmd               cstackCOMMON 0076
+_BCD2Binary                         text21       1238
+_BCD2LowerCh                        text26       1D3D
+_BCD2UpperCh                        text25       1D5E
+_Binary2BCD                         text22       15A2
+_Clock                              bssBANK0     0052
+_DS1302_init                        text37       142A
+_DS1302_read                        text39       1299
+_DS1302_write                       text38       1E94
+_Data                               bssBANK0     0053
+_FONT_3x5                           stringtext   1012
+_Indicator                          bssBANK0     0054
+_KColPins                           bssBANK0     0055
+_KCols                              bssBANK0     0056
+_KIT                                bssBANK0     0057
+_KMap                               bssBANK0     0058
+_KRowPins                           bssBANK0     0059
+_KRows                              bssBANK0     005A
+_KeypadSetting                      text36       0913
+_Keys1                              bssBANK0     005B
+_LCD5110_clear                      text29       120D
+_LCD5110_fillScreen                 text28       1E30
+_LCD5110_inWrite                    text16       1E12
+_LCD5110_internalWrite              text34       14D8
+_LCD5110_setting                    text32       1DD7
+_LCD5110_settings                   text35       1397
+_LCD5110_startCol                   text17       1D53
+_LCD5110_writeCP                    text14       160A
+_LCD5110_writeText                  text13       16F0
+_LCD_clear                          text27       1DF4
+_PIR1bits                           (abs)        000C
+_PORTB                              (abs)        0006
+_PORTC                              (abs)        0007
+_PORTD                              (abs)        0008
+_PinSelect                          text45       0AB9
+_RAM_read                           text20       1DAA
+_RAM_write                          text7        1DBF
+_RB0                                (abs)        0030
+_RB1                                (abs)        0031
+_RB2                                (abs)        0032
+_RB3                                (abs)        0033
+_RB4                                (abs)        0034
+_RB5                                (abs)        0035
+_RB6                                (abs)        0036
+_RB7                                (abs)        0037
+_RCREG                              (abs)        001A
+_RCSTA                              (abs)        0018
+_RCSTAbits                          (abs)        0018
+_RD0                                (abs)        0040
+_RD1                                (abs)        0041
+_RD2                                (abs)        0042
+_RD3                                (abs)        0043
+_RD4                                (abs)        0044
+_RD5                                (abs)        0045
+_RD6                                (abs)        0046
+_RD7                                (abs)        0047
+_RST                                bssBANK0     005C
+_ReadArrayFromRAM                   text19       1672
+_SPBRG                              (abs)        0099
+_SetupTime                          text10       0B9E
+_Shift_out_byte_right               text44       1266
+_TRISB                              (abs)        0086
+_TRISB0                             (abs)        0430
+_TRISB1                             (abs)        0431
+_TRISB2                             (abs)        0432
+_TRISB3                             (abs)        0433
+_TRISB4                             (abs)        0434
+_TRISB5                             (abs)        0435
+_TRISB6                             (abs)        0436
+_TRISB7                             (abs)        0437
+_TRISC                              (abs)        0087
+_TRISD                              (abs)        0088
+_TRISD0                             (abs)        0440
+_TRISD1                             (abs)        0441
+_TRISD2                             (abs)        0442
+_TRISD3                             (abs)        0443
+_TRISD4                             (abs)        0444
+_TRISD5                             (abs)        0445
+_TRISD6                             (abs)        0446
+_TRISD7                             (abs)        0447
+_TXREG                              (abs)        0019
+_TXSTA                              (abs)        0098
+_TXSTAbits                          (abs)        0098
+_Time_read                          text9        1E70
+_Time_write                         text18       130A
+_Write_ds1302_byte                  text42       11EB
+__CE                                bssBANK0     005D
+__CFG_BOREN$OFF                     (abs)        0000
+__CFG_CP$OFF                        (abs)        0000
+__CFG_CPD$OFF                       (abs)        0000
+__CFG_FOSC$HS                       (abs)        0000
+__CFG_LVP$OFF                       (abs)        0000
+__CFG_PWRTE$ON                      (abs)        0000
+__CFG_WDTE$OFF                      (abs)        0000
+__CFG_WRT$OFF                       (abs)        0000
+__Clk                               bssBANK0     005E
+__DC                                bssBANK0     005F
+__DIn                               bssBANK0     0060
+__Habs1                             abs1         0000
+__Hbank0                            bank0        0000
+__Hbank1                            bank1        0000
+__Hbank2                            bank2        0000
+__Hbank3                            bank3        0000
+__HbssBANK0                         bssBANK0     0000
+__HbssBANK1                         bssBANK1     0000
+__Hcinit                            cinit        0800
+__Hclrtext                          clrtext      0000
+__Hcode                             code         0000
+__Hcommon                           common       0000
+__Hconfig                           config       2008
+__HcstackBANK0                      cstackBANK0  0000
+__HcstackBANK1                      cstackBANK1  0000
+__HcstackCOMMON                     cstackCOMMON 0000
+__HdataBANK0                        dataBANK0    0000
+__HdataBANK1                        dataBANK1    0000
+__HdataBANK3                        dataBANK3    0000
+__Heeprom_data                      eeprom_data  0000
+__Hend_init                         end_init     0003
+__Hfunctab                          functab      0000
+__HidataBANK0                       idataBANK0   0000
+__HidataBANK1                       idataBANK1   0000
+__HidataBANK3                       idataBANK3   0000
+__Hidloc                            idloc        0000
+__Hinit                             init         0000
+__Hinittext                         inittext     0000
+__Hintentry                         intentry     0000
+__Hmaintext                         maintext     0000
+__Hpowerup                          powerup      0000
+__Hram                              ram          0000
+__Hreset_vec                        reset_vec    0000
+__Hsfr0                             sfr0         0000
+__Hsfr1                             sfr1         0000
+__Hsfr2                             sfr2         0000
+__Hsfr3                             sfr3         0000
+__Hspace_0                          (abs)        2008
+__Hspace_1                          (abs)        019C
+__Hspace_2                          (abs)        0000
+__Hspace_3                          (abs)        0000
+__Hstack                            stack        0000
+__Hstrings                          strings      0000
+__Hstringtext                       stringtext   0000
+__Htext                             text         0000
+__Labs1                             abs1         0000
+__Lbank0                            bank0        0000
+__Lbank1                            bank1        0000
+__Lbank2                            bank2        0000
+__Lbank3                            bank3        0000
+__LbssBANK0                         bssBANK0     0000
+__LbssBANK1                         bssBANK1     0000
+__Lcinit                            cinit        07C7
+__Lclrtext                          clrtext      0000
+__Lcode                             code         0000
+__Lcommon                           common       0000
+__Lconfig                           config       2007
+__LcstackBANK0                      cstackBANK0  0000
+__LcstackBANK1                      cstackBANK1  0000
+__LcstackCOMMON                     cstackCOMMON 0000
+__LdataBANK0                        dataBANK0    0000
+__LdataBANK1                        dataBANK1    0000
+__LdataBANK3                        dataBANK3    0000
+__Leeprom_data                      eeprom_data  0000
+__Lend_init                         end_init     0000
+__Lfunctab                          functab      0000
+__LidataBANK0                       idataBANK0   0000
+__LidataBANK1                       idataBANK1   0000
+__LidataBANK3                       idataBANK3   0000
+__Lidloc                            idloc        0000
+__Linit                             init         0000
+__Linittext                         inittext     0000
+__Lintentry                         intentry     0000
+__Lmaintext                         maintext     0000
+__Lpowerup                          powerup      0000
+__Lram                              ram          0000
+__Lreset_vec                        reset_vec    0000
+__Lsfr0                             sfr0         0000
+__Lsfr1                             sfr1         0000
+__Lsfr2                             sfr2         0000
+__Lsfr3                             sfr3         0000
+__Lspace_0                          (abs)        0000
+__Lspace_1                          (abs)        0000
+__Lspace_2                          (abs)        0000
+__Lspace_3                          (abs)        0000
+__Lstack                            stack        0000
+__Lstrings                          strings      0000
+__Lstringtext                       stringtext   0000
+__Ltext                             text         0000
+__Rset                              bssBANK0     0061
+__S0                                (abs)        2008
+__S1                                (abs)        019C
+__S2                                (abs)        0000
+__S3                                (abs)        0000
+___awdiv                            text24       147F
+___awdiv@counter                    cstackCOMMON 0075
+___awdiv@dividend                   cstackCOMMON 0072
+___awdiv@divisor                    cstackCOMMON 0070
+___awdiv@quotient                   cstackCOMMON 0077
+___awdiv@sign                       cstackCOMMON 0076
+___awmod                            text23       13DF
+___awmod@counter                    cstackCOMMON 0075
+___awmod@dividend                   cstackCOMMON 0072
+___awmod@divisor                    cstackCOMMON 0070
+___awmod@sign                       cstackCOMMON 0076
+___bmul                             text31       1D76
+___bmul@multiplicand                cstackCOMMON 0070
+___bmul@multiplier                  cstackCOMMON 0073
+___bmul@product                     cstackCOMMON 0072
+___int_sp                           stack        0000
+___latbits                          (abs)        0002
+___lldiv                            text4        0800
+___lldiv@counter                    cstackCOMMON 007D
+___lldiv@dividend                   cstackCOMMON 0074
+___lldiv@divisor                    cstackCOMMON 0070
+___lldiv@quotient                   cstackCOMMON 0079
+___sp                               stack        0000
+___wmul                             text15       1E4F
+___wmul@multiplicand                cstackCOMMON 0072
+___wmul@multiplier                  cstackCOMMON 0070
+___wmul@product                     cstackCOMMON 0074
+__end_of_BCD2Binary                 text21       1266
+__end_of_BCD2LowerCh                text26       1D42
+__end_of_BCD2UpperCh                text25       1D6A
+__end_of_Binary2BCD                 text22       160A
+__end_of_DS1302_init                text37       147F
+__end_of_DS1302_read                text39       12CF
+__end_of_DS1302_write               text38       1EBC
+__end_of_FONT_3x5                   stringtext   1132
+__end_of_KeypadSetting              text36       09E2
+__end_of_LCD5110_clear              text29       1238
+__end_of_LCD5110_fillScreen         text28       1E4F
+__end_of_LCD5110_inWrite            text16       1E30
+__end_of_LCD5110_internalWrite      text34       153B
+__end_of_LCD5110_setting            text32       1DF4
+__end_of_LCD5110_settings           text35       13DF
+__end_of_LCD5110_startCol           text17       1D5E
+__end_of_LCD5110_writeCP            text14       1672
+__end_of_LCD5110_writeText          text13       1771
+__end_of_LCD_clear                  text27       1E12
+__end_of_PinSelect                  text45       0B9E
+__end_of_RAM_read                   text20       1DBF
+__end_of_RAM_write                  text7        1DD7
+__end_of_ReadArrayFromRAM           text19       16F0
+__end_of_SetupTime                  text10       0CE9
+__end_of_Shift_out_byte_right       text44       1299
+__end_of_Time_read                  text9        1E94
+__end_of_Time_write                 text18       134F
+__end_of_Write_ds1302_byte          text42       120D
+__end_of___awdiv                    text24       14D8
+__end_of___awmod                    text23       142A
+__end_of___bmul                     text31       1D87
+__end_of___lldiv                    text4        085E
+__end_of___wmul                     text15       1E70
+__end_of__initialization            cinit        07FC
+__end_of__stringtab                 stringtext   1012
+__end_of_compareTimeArray           text8        1F0E
+__end_of_getKey                     text12       1000
+__end_of_gotoXY                     text30       1EE5
+__end_of_main                       maintext     07C7
+__end_of_pinMode                    text43       0132
+__end_of_readAndStore               text5        02D9
+__end_of_readKeys                   text11       0AB9
+__end_of_readPin                    text41       0913
+__end_of_serialBegin                text3        15A2
+__end_of_serialWrite                text2        1DAA
+__end_of_serialWriteText            text1        1F38
+__end_of_shift_in_byte              text40       1397
+__end_of_startCommand               text33       130A
+__end_of_writeArrayToRAM            text6        1800
+__initialization                    cinit        07C7
+__pbssBANK0                         bssBANK0     0052
+__pbssBANK1                         bssBANK1     00EB
+__pcstackBANK0                      cstackBANK0  0020
+__pcstackBANK1                      cstackBANK1  00A0
+__pcstackCOMMON                     cstackCOMMON 0070
+__pdataBANK0                        dataBANK0    0066
+__pdataBANK1                        dataBANK1    00D1
+__pdataBANK3                        dataBANK3    0190
+__pidataBANK0                       idataBANK0   1D4A
+__pidataBANK1                       idataBANK1   0003
+__pidataBANK3                       idataBANK3   1D6A
+__pmaintext                         maintext     02D9
+__pstringtext                       stringtext   1000
+__ptext1                            text1        1F0E
+__ptext10                           text10       0B9E
+__ptext11                           text11       09E2
+__ptext12                           text12       0CE9
+__ptext13                           text13       16F0
+__ptext14                           text14       160A
+__ptext15                           text15       1E4F
+__ptext16                           text16       1E12
+__ptext17                           text17       1D53
+__ptext18                           text18       130A
+__ptext19                           text19       1672
+__ptext2                            text2        1D98
+__ptext20                           text20       1DAA
+__ptext21                           text21       1238
+__ptext22                           text22       15A2
+__ptext23                           text23       13DF
+__ptext24                           text24       147F
+__ptext25                           text25       1D5E
+__ptext26                           text26       1D3D
+__ptext27                           text27       1DF4
+__ptext28                           text28       1E30
+__ptext29                           text29       120D
+__ptext3                            text3        153B
+__ptext30                           text30       1EBC
+__ptext31                           text31       1D76
+__ptext32                           text32       1DD7
+__ptext33                           text33       12CF
+__ptext34                           text34       14D8
+__ptext35                           text35       1397
+__ptext36                           text36       0913
+__ptext37                           text37       142A
+__ptext38                           text38       1E94
+__ptext39                           text39       1299
+__ptext4                            text4        0800
+__ptext40                           text40       134F
+__ptext41                           text41       085E
+__ptext42                           text42       11EB
+__ptext43                           text43       001D
+__ptext44                           text44       1266
+__ptext45                           text45       0AB9
+__ptext5                            text5        0132
+__ptext6                            text6        1771
+__ptext7                            text7        1DBF
+__ptext8                            text8        1EE5
+__ptext9                            text9        1E70
+__size_of_BCD2Binary                (abs)        0000
+__size_of_BCD2LowerCh               (abs)        0000
+__size_of_BCD2UpperCh               (abs)        0000
+__size_of_Binary2BCD                (abs)        0000
+__size_of_DS1302_init               (abs)        0000
+__size_of_DS1302_read               (abs)        0000
+__size_of_DS1302_write              (abs)        0000
+__size_of_KeypadSetting             (abs)        0000
+__size_of_LCD5110_clear             (abs)        0000
+__size_of_LCD5110_fillScreen        (abs)        0000
+__size_of_LCD5110_inWrite           (abs)        0000
+__size_of_LCD5110_internalWrite     (abs)        0000
+__size_of_LCD5110_setting           (abs)        0000
+__size_of_LCD5110_settings          (abs)        0000
+__size_of_LCD5110_startCol          (abs)        0000
+__size_of_LCD5110_writeCP           (abs)        0000
+__size_of_LCD5110_writeText         (abs)        0000
+__size_of_LCD_clear                 (abs)        0000
+__size_of_PinSelect                 (abs)        0000
+__size_of_RAM_read                  (abs)        0000
+__size_of_RAM_write                 (abs)        0000
+__size_of_ReadArrayFromRAM          (abs)        0000
+__size_of_SetupTime                 (abs)        0000
+__size_of_Shift_out_byte_right      (abs)        0000
+__size_of_Time_read                 (abs)        0000
+__size_of_Time_write                (abs)        0000
+__size_of_Write_ds1302_byte         (abs)        0000
+__size_of___awdiv                   (abs)        0000
+__size_of___awmod                   (abs)        0000
+__size_of___bmul                    (abs)        0000
+__size_of___lldiv                   (abs)        0000
+__size_of___wmul                    (abs)        0000
+__size_of_compareTimeArray          (abs)        0000
+__size_of_getKey                    (abs)        0000
+__size_of_gotoXY                    (abs)        0000
+__size_of_main                      (abs)        0000
+__size_of_pinMode                   (abs)        0000
+__size_of_readAndStore              (abs)        0000
+__size_of_readKeys                  (abs)        0000
+__size_of_readPin                   (abs)        0000
+__size_of_serialBegin               (abs)        0000
+__size_of_serialWrite               (abs)        0000
+__size_of_serialWriteText           (abs)        0000
+__size_of_shift_in_byte             (abs)        0000
+__size_of_startCommand              (abs)        0000
+__size_of_writeArrayToRAM           (abs)        0000
+__stringbase                        stringtext   1012
+__stringtab                         stringtext   1000
+_colCheck                           bssBANK0     0062
+_compareTimeArray                   text8        1EE5
+_getKey                             text12       0CE9
+_gotoXY                             text30       1EBC
+_keypadMap                          dataBANK1    00D1
+_lastwriteaddr                      bssBANK1     00ED
+_lastwritecount                     bssBANK1     00EB
+_main                               maintext     02D9
+_pinMode                            text43       001D
+_readAndStore                       text5        0132
+_readKeys                           text11       09E2
+_readPin                            text41       085E
+_rowCheck                           bssBANK0     0065
+_serialBegin                        text3        153B
+_serialWrite                        text2        1D98
+_serialWriteText                    text1        1F0E
+_shift_in_byte                      text40       134F
+_startCommand                       text33       12CF
+_writeArrayToRAM                    text6        1771
+btemp                               (abs)        007E
+clear_ram0                          clrtext      1D42
+compareTimeArray@size               cstackCOMMON 0071
+compareTimeArray@time               cstackCOMMON 0076
+compareTimeArray@time2              cstackCOMMON 0070
+compareTimeArray@x                  cstackCOMMON 0074
+end_of_initialization               cinit        07FC
+getKey@Col                          cstackCOMMON 007B
+getKey@KeyPress                     cstackCOMMON 0077
+getKey@KeyTell                      cstackCOMMON 0078
+getKey@Map                          cstackCOMMON 0079
+getKey@Row                          cstackCOMMON 007A
+getKey@i                            cstackCOMMON 007C
+gotoXY@X                            cstackCOMMON 0078
+gotoXY@Y                            cstackCOMMON 007B
+init_fetch0                         inittext     1D87
+init_ram0                           inittext     1D8B
+intlevel0                           functab      0000
+intlevel1                           functab      0000
+intlevel2                           functab      0000
+intlevel3                           functab      0000
+intlevel4                           functab      0000
+intlevel5                           functab      0000
+ltemp                               (abs)        007E
+ltemp0                              (abs)        007E
+ltemp1                              (abs)        0082
+ltemp2                              (abs)        0086
+ltemp3                              (abs)        0080
+main@ColumnsPins                    cstackBANK1  00B9
+main@F1564                          dataBANK1    00DB
+main@F1566                          dataBANK0    0066
+main@F1569                          dataBANK3    0190
+main@F1571                          dataBANK1    00E4
+main@F1573                          dataBANK1    00E8
+main@KeypadCharacters               cstackBANK1  00A0
+main@Keys                           cstackBANK1  00D0
+main@Ringsno1                       cstackBANK1  00CE
+main@RowPins                        cstackBANK1  00B5
+main@back                           cstackBANK1  00BE
+main@counter                        cstackBANK1  00CA
+main@hours                          cstackBANK1  00CD
+main@minutes                        cstackBANK1  00CB
+main@myrings                        cstackBANK1  00BC
+main@ringsno                        cstackBANK1  00A0
+main@seconds                        cstackBANK1  00CC
+main@time                           cstackBANK1  00C0
+main@time2                          cstackBANK1  00AC
+main@x                              cstackBANK1  00BF
+main@x_522                          cstackBANK1  00C9
+pinMode@segPortSel                  cstackCOMMON 0071
+pinMode@stater                      cstackCOMMON 0070
+readAndStore@Keys                   cstackBANK0  0045
+readAndStore@Time                   cstackBANK0  0048
+readAndStore@round                  cstackBANK0  0049
+readAndStore@round1                 cstackBANK0  0046
+readAndStore@round2                 cstackBANK0  0047
+readAndStore@terminated             cstackBANK0  004A
+readAndStore@time                   cstackBANK0  004B
+readAndStore@x                      cstackBANK0  0041
+readKeys@count                      cstackBANK0  0040
+readKeys@terminated                 cstackBANK0  003E
+readKeys@time                       cstackBANK0  003F
+readPin@stater                      cstackCOMMON 0070
+reset_vec                           reset_vec    0000
+serialBegin@baudd                   cstackBANK0  0020
+serialWrite@SerTx                   cstackCOMMON 0072
+serialWriteText@Sertxxt             cstackCOMMON 0073
+serialWriteText@pnttter             cstackCOMMON 0076
+shift_in_byte@data                  cstackCOMMON 0076
+shift_in_byte@i                     cstackCOMMON 0075
+shift_in_byte@temp                  cstackCOMMON 0074
+stackhi                             (abs)        0000
+stacklo                             (abs)        0000
+start                               init         0000
+start_initialization                cinit        07C7
+ttemp                               (abs)        007E
+ttemp0                              (abs)        007E
+ttemp1                              (abs)        0081
+ttemp2                              (abs)        0084
+ttemp3                              (abs)        0087
+ttemp4                              (abs)        007F
+writeArrayToRAM@address             cstackBANK0  0024
+writeArrayToRAM@address1            cstackBANK0  002B
+writeArrayToRAM@hr                  cstackBANK0  0029
+writeArrayToRAM@mins                cstackBANK0  002A
+writeArrayToRAM@mytime              cstackBANK0  0028
+writeArrayToRAM@timearray           cstackBANK0  0027
+writeArrayToRAM@x                   cstackBANK0  002C
+wtemp                               (abs)        007E
+wtemp0                              (abs)        007E
+wtemp1                              (abs)        0080
+wtemp2                              (abs)        0082
+wtemp3                              (abs)        0084
+wtemp4                              (abs)        0086
+wtemp5                              (abs)        0088
+wtemp6                              (abs)        007F
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 26 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  x               1   41[BANK1 ] unsigned char 
+  x               1   31[BANK1 ] unsigned char 
+  myrings         2   28[BANK1 ] PTR unsigned char 
+		 -> main@ringsno(0), 
+  counter         1   42[BANK1 ] unsigned char 
+  back            1   30[BANK1 ] unsigned char 
+  Ringsno1        2   46[BANK1 ] unsigned int 
+  ringsno         0    0[BANK1 ] unsigned char [0]
+  KeypadCharac   12    0[BANK1 ] unsigned char [3][4]
+  time            9   32[BANK1 ] unsigned char [9]
+  time2           9   12[BANK1 ] unsigned char [9]
+  RowPins         4   21[BANK1 ] unsigned char [4]
+  ColumnsPins     3   25[BANK1 ] unsigned char [3]
+  Keys            1   48[BANK1 ] unsigned char 
+  hours           1   45[BANK1 ] unsigned char 
+  seconds         1   44[BANK1 ] unsigned char 
+  minutes         1   43[BANK1 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0      49       0       0
+      Temps:          0       6       0       0       0
+      Totals:         0       6      49       0       0
+Total ram usage:       55 bytes
+ Hardware stack levels required when called:    8
+ This function calls:
+		_BCD2LowerCh
+		_BCD2UpperCh
+		_DS1302_init
+		_KeypadSetting
+		_LCD5110_clear
+		_LCD5110_setting
+		_LCD5110_writeText
+		_LCD_clear
+		_PinSelect
+		_ReadArrayFromRAM
+		_SetupTime
+		_Time_read
+		___wmul
+		_compareTimeArray
+		_getKey
+		_pinMode
+		_readAndStore
+		_serialBegin
+		_serialWriteText
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _serialWriteText *****************
+ Defined at:
+		line 47 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Serial.h"
+ Parameters:    Size  Location     Type
+  Sertxxt         2    3[COMMON] PTR unsigned char 
+		 -> STR_5(3), main@time2(9), 
+ Auto vars:     Size  Location     Type
+  pnttter         1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_serialWrite
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _serialWrite *****************
+ Defined at:
+		line 40 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Serial.h"
+ Parameters:    Size  Location     Type
+  SerTx           1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  SerTx           1    2[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_serialWriteText
+ This function uses a non-reentrant model
+
+
+ *************** function _serialBegin *****************
+ Defined at:
+		line 33 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Serial.h"
+ Parameters:    Size  Location     Type
+  baudd           4    0[BANK0 ] const unsigned long 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0      12       0       0       0
+      Totals:         0      16       0       0       0
+Total ram usage:       16 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		___lldiv
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___lldiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\lldiv.c"
+ Parameters:    Size  Location     Type
+  divisor         4    0[COMMON] unsigned long 
+  dividend        4    4[COMMON] unsigned long 
+ Auto vars:     Size  Location     Type
+  quotient        4    9[COMMON] unsigned long 
+  counter         1   13[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  4    0[COMMON] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         8       0       0       0       0
+      Locals:         5       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:        14       0       0       0       0
+Total ram usage:       14 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_serialBegin
+ This function uses a non-reentrant model
+
+
+ *************** function _readAndStore *****************
+ Defined at:
+		line 206 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  Time            1    wreg     PTR unsigned char 
+		 -> main@time(9), 
+  x               1   33[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  Time            1   40[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+  time            1   43[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+  terminated      1   42[BANK0 ] unsigned char 
+  round           1   41[BANK0 ] unsigned char 
+  round2          1   39[BANK0 ] unsigned char 
+  round1          1   38[BANK0 ] unsigned char 
+  Keys            1   37[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       7       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0      11       0       0       0
+Total ram usage:       11 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_BCD2LowerCh
+		_BCD2UpperCh
+		_Binary2BCD
+		_LCD5110_writeCP
+		_LCD5110_writeText
+		_getKey
+		_readKeys
+		_writeArrayToRAM
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _writeArrayToRAM *****************
+ Defined at:
+		line 265 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  timearray       1    wreg     PTR unsigned char 
+		 -> main@time(9), 
+  address         1    4[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  timearray       1    7[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+  x               1   12[BANK0 ] unsigned char 
+  address1        1   11[BANK0 ] unsigned char 
+  mins            1   10[BANK0 ] unsigned char 
+  hr              1    9[BANK0 ] unsigned char 
+  mytime          1    8[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       9       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_RAM_write
+		___bmul
+ This function is called by:
+		_readAndStore
+ This function uses a non-reentrant model
+
+
+ *************** function _RAM_write *****************
+ Defined at:
+		line 235 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+  data            1   12[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         2       1       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_Binary2BCD
+		_DS1302_write
+ This function is called by:
+		_writeArrayToRAM
+ This function uses a non-reentrant model
+
+
+ *************** function _compareTimeArray *****************
+ Defined at:
+		line 302 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  time            1    wreg     PTR unsigned char 
+		 -> main@time(9), 
+  time2           1    0[COMMON] PTR unsigned char 
+		 -> main@time2(9), 
+  size            2    1[COMMON] int 
+ Auto vars:     Size  Location     Type
+  time            1    6[COMMON] PTR unsigned char 
+		 -> main@time(9), 
+  x               2    4[COMMON] int 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         7       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Time_read *****************
+ Defined at:
+		line 325 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  hr              1    wreg     PTR unsigned char 
+		 -> main@hours(1), 
+  min             1   10[COMMON] PTR unsigned char 
+		 -> main@minutes(1), 
+  sec             1   11[COMMON] PTR unsigned char 
+		 -> main@seconds(1), 
+ Auto vars:     Size  Location     Type
+  hr              1   13[COMMON] PTR unsigned char 
+		 -> main@hours(1), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_DS1302_read
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _SetupTime *****************
+ Defined at:
+		line 310 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  timearray       1    wreg     PTR unsigned char 
+		 -> main@time(9), 
+ Auto vars:     Size  Location     Type
+  timearray       1   43[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+  x               1   40[BANK0 ] unsigned char 
+  x               1   39[BANK0 ] unsigned char 
+  mins            1   42[BANK0 ] unsigned char 
+  hr              1   41[BANK0 ] unsigned char 
+  terminated      1   38[BANK0 ] unsigned char 
+  Keys            1   37[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       7       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0      11       0       0       0
+Total ram usage:       11 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_LCD5110_clear
+		_LCD5110_writeText
+		_Time_write
+		___bmul
+		_getKey
+		_readKeys
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _readKeys *****************
+ Defined at:
+		line 345 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  time            1    wreg     PTR unsigned char 
+		 -> main@time(9), 
+ Auto vars:     Size  Location     Type
+  time            1   31[BANK0 ] PTR unsigned char 
+		 -> main@time(9), 
+  count           1   32[BANK0 ] unsigned char 
+  terminated      1   30[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       3       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0       7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_LCD5110_writeText
+		_getKey
+ This function is called by:
+		_readAndStore
+		_SetupTime
+ This function uses a non-reentrant model
+
+
+ *************** function _getKey *****************
+ Defined at:
+		line 107 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Keypad.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1   12[COMMON] unsigned char 
+  Col             1   11[COMMON] unsigned char 
+  Row             1   10[COMMON] unsigned char 
+  Map             1    9[COMMON] unsigned char 
+  KeyTell         1    8[COMMON] unsigned char 
+  KeyPress        1    7[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         6       0       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:         9       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_PinSelect
+		___bmul
+		_readPin
+ This function is called by:
+		_main
+		_readAndStore
+		_SetupTime
+		_readKeys
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_writeText *****************
+ Defined at:
+		line 342 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  userFont        2   14[BANK0 ] PTR const unsigned char 
+		 -> FONT_3x5(288), 
+  fontWidth       1   16[BANK0 ] unsigned char 
+  fontOffset      1   17[BANK0 ] unsigned char 
+  row             1   18[BANK0 ] unsigned char 
+  col             1   19[BANK0 ] unsigned char 
+  characters      2   20[BANK0 ] PTR unsigned char 
+		 -> STR_20(16), STR_19(16), STR_18(16), STR_17(16), 
+		 -> STR_16(6), STR_15(7), STR_14(16), STR_13(16), 
+		 -> STR_12(16), STR_11(10), STR_10(4), main@ringsno(0), 
+		 -> STR_9(18), STR_8(17), STR_7(16), STR_6(16), 
+		 -> STR_4(6), STR_3(7), STR_2(6), STR_1(11), 
+		 -> main@time(9), 
+  dispType        1   22[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2   14[BANK0 ] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       9       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0      12       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_LCD5110_internalWrite
+		_LCD5110_writeCP
+		_gotoXY
+ This function is called by:
+		_main
+		_readAndStore
+		_SetupTime
+		_readKeys
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_writeCP *****************
+ Defined at:
+		line 299 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  userFont        2    0[BANK0 ] PTR const unsigned char 
+		 -> FONT_3x5(288), 
+  fontWidth       1    2[BANK0 ] unsigned char 
+  fontOffset      1    3[BANK0 ] unsigned char 
+  character       1    4[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  pos_x           1   13[BANK0 ] unsigned char 
+  _data           1   12[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       5       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       7       0       0       0
+      Totals:         0      14       0       0       0
+Total ram usage:       14 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_LCD5110_inWrite
+		_LCD5110_internalWrite
+		___wmul
+ This function is called by:
+		_LCD5110_writeText
+		_readAndStore
+		_LCD5110_writeTextCP
+ This function uses a non-reentrant model
+
+
+ *************** function ___wmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2    0[COMMON] unsigned int 
+  multiplicand    2    2[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  product         2    4[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         6       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_LCD5110_writeCP
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_inWrite *****************
+ Defined at:
+		line 289 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  roww            1    wreg     unsigned char 
+  coll            1   10[COMMON] unsigned char 
+  dat             1   11[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  roww            1   13[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2   10[COMMON] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_LCD5110_internalWrite
+		_LCD5110_startCol
+ This function is called by:
+		_LCD5110_writeCP
+		_LCD5110_write
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_startCol *****************
+ Defined at:
+		line 268 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  col             1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  col             1    9[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_LCD5110_internalWrite
+ This function is called by:
+		_LCD5110_inWrite
+ This function uses a non-reentrant model
+
+
+ *************** function _Time_write *****************
+ Defined at:
+		line 301 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  hr              1    wreg     unsigned char 
+  min             1   12[COMMON] unsigned char 
+  seconds         1   13[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  hr              1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         2       2       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_Binary2BCD
+		_DS1302_write
+ This function is called by:
+		_SetupTime
+ This function uses a non-reentrant model
+
+
+ *************** function _ReadArrayFromRAM *****************
+ Defined at:
+		line 287 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+  timearray       1    wreg     PTR unsigned char 
+		 -> main@time2(9), 
+ Auto vars:     Size  Location     Type
+  timearray       1    3[BANK0 ] PTR unsigned char 
+		 -> main@time2(9), 
+  mytime          1    6[BANK0 ] PTR unsigned char 
+		 -> main@time2(9), 
+  mins            1    5[BANK0 ] unsigned char 
+  hr              1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1       4       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_BCD2LowerCh
+		_BCD2UpperCh
+		_Binary2BCD
+		_RAM_read
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RAM_read *****************
+ Defined at:
+		line 240 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1   11[COMMON] unsigned char 
+  data            1   12[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_BCD2Binary
+		_DS1302_read
+ This function is called by:
+		_ReadArrayFromRAM
+ This function uses a non-reentrant model
+
+
+ *************** function _BCD2Binary *****************
+ Defined at:
+		line 373 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  aa              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  aa              1    7[COMMON] unsigned char 
+  tt              1    8[COMMON] unsigned char 
+  rr              1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         5       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		___bmul
+ This function is called by:
+		_RAM_read
+ This function uses a non-reentrant model
+
+
+ *************** function _Binary2BCD *****************
+ Defined at:
+		line 359 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  aa              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  aa              1    0[BANK0 ] unsigned char 
+  t2              1    2[BANK0 ] unsigned char 
+  t1              1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       3       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:         3       3       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		___awdiv
+		___awmod
+ This function is called by:
+		_RAM_write
+		_Time_write
+		_readAndStore
+		_ReadArrayFromRAM
+		_DateTime_write
+		_Date_write
+		_IntToChar
+ This function uses a non-reentrant model
+
+
+ *************** function ___awmod *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[COMMON] int 
+  dividend        2    2[COMMON] int 
+ Auto vars:     Size  Location     Type
+  sign            1    6[COMMON] unsigned char 
+  counter         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         7       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Binary2BCD
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[COMMON] int 
+  dividend        2    2[COMMON] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    7[COMMON] int 
+  sign            1    6[COMMON] unsigned char 
+  counter         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         4       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         9       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Binary2BCD
+ This function uses a non-reentrant model
+
+
+ *************** function _BCD2UpperCh *****************
+ Defined at:
+		line 346 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  bcd             1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  bcd             1    1[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_readAndStore
+		_ReadArrayFromRAM
+ This function uses a non-reentrant model
+
+
+ *************** function _BCD2LowerCh *****************
+ Defined at:
+		line 352 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  bcd             1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  bcd             1    0[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_readAndStore
+		_ReadArrayFromRAM
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD_clear *****************
+ Defined at:
+		line 381 in file "C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_LCD5110_clear
+		_LCD5110_fillScreen
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_fillScreen *****************
+ Defined at:
+		line 359 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  bytez           1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  bytez           1    9[COMMON] unsigned char 
+  pointer         2   10[COMMON] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_LCD5110_internalWrite
+ This function is called by:
+		_LCD_clear
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_clear *****************
+ Defined at:
+		line 364 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  pointer         2   12[COMMON] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_LCD5110_internalWrite
+		_gotoXY
+ This function is called by:
+		_main
+		_SetupTime
+		_LCD_clear
+ This function uses a non-reentrant model
+
+
+ *************** function _gotoXY *****************
+ Defined at:
+		line 257 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  Y               1    wreg     unsigned char 
+  X               1    8[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Y               1   11[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    8[COMMON] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_LCD5110_internalWrite
+		___bmul
+ This function is called by:
+		_LCD5110_writeText
+		_LCD5110_clear
+		_LCD5110_image
+		_LCD5110_write
+ This function uses a non-reentrant model
+
+
+ *************** function ___bmul *****************
+ Defined at:
+		line 4 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul8.c"
+ Parameters:    Size  Location     Type
+  multiplier      1    wreg     unsigned char 
+  multiplicand    1    0[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  multiplier      1    3[COMMON] unsigned char 
+  product         1    2[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_BCD2Binary
+		_gotoXY
+		_getKey
+		_writeArrayToRAM
+		_SetupTime
+		_LCD5110_write
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_setting *****************
+ Defined at:
+		line 383 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  Rset            1    wreg     unsigned char 
+  CE              1    9[COMMON] unsigned char 
+  DC              1   10[COMMON] unsigned char 
+  DIn             1   11[COMMON] unsigned char 
+  Clk             1   12[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Rset            1   13[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         5       4       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_LCD5110_settings
+		_startCommand
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _startCommand *****************
+ Defined at:
+		line 247 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2  397[None  ] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_LCD5110_internalWrite
+ This function is called by:
+		_LCD5110_setting
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_internalWrite *****************
+ Defined at:
+		line 224 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  Data__Comman    1    wreg     unsigned char 
+  dataByte        1    2[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Data__Comman    1    5[COMMON] unsigned char 
+  i               1    7[COMMON] unsigned char 
+  _data           1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    2[COMMON] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         6       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_PinSelect
+ This function is called by:
+		_startCommand
+		_gotoXY
+		_LCD5110_startCol
+		_LCD5110_inWrite
+		_LCD5110_writeCP
+		_LCD5110_writeText
+		_LCD5110_fillScreen
+		_LCD5110_clear
+		_LCD5110_startRow
+		_LCD5110_image
+		_LCD5110_write
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD5110_settings *****************
+ Defined at:
+		line 370 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h"
+ Parameters:    Size  Location     Type
+  Clk             1    wreg     unsigned char 
+  DIn             1    2[COMMON] unsigned char 
+  DC              1    3[COMMON] unsigned char 
+  CE              1    4[COMMON] unsigned char 
+  Rset            1    5[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Clk             1    7[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         6       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_PinSelect
+		_pinMode
+ This function is called by:
+		_LCD5110_setting
+ This function uses a non-reentrant model
+
+
+ *************** function _KeypadSetting *****************
+ Defined at:
+		line 78 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Keypad.h"
+ Parameters:    Size  Location     Type
+  InputType       1    wreg     unsigned char 
+  KRowPinsA       1    2[COMMON] PTR unsigned char 
+		 -> main@RowPins(4), 
+  KColPinsA       1    3[COMMON] PTR unsigned char 
+		 -> main@ColumnsPins(3), 
+  KRowss          1    4[COMMON] unsigned char 
+  KColss          1    5[COMMON] unsigned char 
+  KMapA           1    6[COMMON] PTR unsigned char 
+		 -> main@KeypadCharacters(12), 
+  indicatorPin    1    7[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  InputType       1   11[COMMON] unsigned char 
+  KeyLoad         1   12[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         6       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:        11       0       0       0       0
+Total ram usage:       11 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_pinMode
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _DS1302_init *****************
+ Defined at:
+		line 171 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  CLK             1    wreg     unsigned char 
+  DAT             1   10[COMMON] unsigned char 
+  CE              1   11[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  CLK             1    0[BANK0 ] unsigned char 
+  x               1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         3       2       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_DS1302_read
+		_DS1302_write
+		_PinSelect
+		_pinMode
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _DS1302_write *****************
+ Defined at:
+		line 224 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  cmd             1    wreg     unsigned char 
+  data            1    7[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  cmd             1    8[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_PinSelect
+		_Write_ds1302_byte
+ This function is called by:
+		_DS1302_init
+		_RAM_write
+		_Time_write
+		_DateTime_write
+		_Date_write
+ This function uses a non-reentrant model
+
+
+ *************** function _DS1302_read *****************
+ Defined at:
+		line 200 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  cmd             1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  cmd             1    8[COMMON] unsigned char 
+  dataRead        1    9[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_PinSelect
+		_Write_ds1302_byte
+		_pinMode
+		_shift_in_byte
+ This function is called by:
+		_DS1302_init
+		_RAM_read
+		_Time_read
+		_Date_read
+ This function uses a non-reentrant model
+
+
+ *************** function _shift_in_byte *****************
+ Defined at:
+		line 250 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1    5[COMMON] unsigned char 
+  data            1    6[COMMON] unsigned char 
+  temp            1    4[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         5       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_PinSelect
+		_readPin
+ This function is called by:
+		_DS1302_read
+ This function uses a non-reentrant model
+
+
+ *************** function _readPin *****************
+ Defined at:
+		line 399 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/libr.h"
+ Parameters:    Size  Location     Type
+  stater          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  stater          1    0[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_shift_in_byte
+		_getKey
+ This function uses a non-reentrant model
+
+
+ *************** function _Write_ds1302_byte *****************
+ Defined at:
+		line 215 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  cmd             1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  cmd             1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_PinSelect
+		_Shift_out_byte_right
+		_pinMode
+ This function is called by:
+		_DS1302_read
+		_DS1302_write
+ This function uses a non-reentrant model
+
+
+ *************** function _pinMode *****************
+ Defined at:
+		line 378 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/libr.h"
+ Parameters:    Size  Location     Type
+  segPortSel      1    wreg     unsigned char 
+  stater          1    0[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  segPortSel      1    1[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_DS1302_init
+		_DS1302_read
+		_Write_ds1302_byte
+		_LCD5110_settings
+		_KeypadSetting
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Shift_out_byte_right *****************
+ Defined at:
+		line 265 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h"
+ Parameters:    Size  Location     Type
+  data            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data            1    4[COMMON] unsigned char 
+  i               1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_PinSelect
+ This function is called by:
+		_Write_ds1302_byte
+ This function uses a non-reentrant model
+
+
+ *************** function _PinSelect *****************
+ Defined at:
+		line 353 in file "C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/libr.h"
+ Parameters:    Size  Location     Type
+  selPins         1    wreg     unsigned char 
+  segState        1    0[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  selPins         1    1[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_DS1302_init
+		_DS1302_read
+		_Write_ds1302_byte
+		_DS1302_write
+		_shift_in_byte
+		_Shift_out_byte_right
+		_LCD5110_internalWrite
+		_LCD5110_settings
+		_getKey
+		_main
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul8.c
+		___bmul        		CODE           	1D76	0000	18
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul8.c estimated size: 18
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h
+		_startCommand  		CODE           	12CF	0000	60
+		_LCD5110_startCol		CODE           	1D53	0000	12
+		_LCD5110_clear 		CODE           	120D	0000	44
+		_LCD5110_settings		CODE           	1397	0000	73
+		_LCD5110_internalWrite		CODE           	14D8	0000	100
+		_LCD5110_writeText		CODE           	16F0	0000	130
+		_LCD5110_writeCP		CODE           	160A	0000	105
+		_LCD5110_fillScreen		CODE           	1E30	0000	32
+		_LCD5110_inWrite		CODE           	1E12	0000	31
+		_LCD5110_setting		CODE           	1DD7	0000	30
+		_gotoXY        		CODE           	1EBC	0000	42
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/LCD5110.h estimated size: 659
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awdiv.c
+		___awdiv       		CODE           	147F	0000	90
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awdiv.c estimated size: 90
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\lldiv.c
+		___lldiv       		CODE           	0800	0000	95
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\lldiv.c estimated size: 95
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/libr.h
+		_PinSelect     		CODE           	0AB9	0000	230
+		_readPin       		CODE           	085E	0000	182
+		_pinMode       		CODE           	001D	0000	278
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/libr.h estimated size: 690
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h
+		_Write_ds1302_byte		CODE           	11EB	0000	35
+		_Time_write    		CODE           	130A	0000	70
+		_Shift_out_byte_right		CODE           	1266	0000	52
+		_BCD2LowerCh   		CODE           	1D3D	0000	6
+		_BCD2Binary    		CODE           	1238	0000	47
+		_Time_read     		CODE           	1E70	0000	37
+		_BCD2UpperCh   		CODE           	1D5E	0000	13
+		_Binary2BCD    		CODE           	15A2	0000	105
+		_RAM_write     		CODE           	1DBF	0000	25
+		_shift_in_byte 		CODE           	134F	0000	73
+		_RAM_read      		CODE           	1DAA	0000	22
+		_DS1302_read   		CODE           	1299	0000	55
+		_DS1302_init   		CODE           	142A	0000	86
+		_DS1302_write  		CODE           	1E94	0000	41
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Ds1302.h estimated size: 667
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Keypad.h
+		_KeypadSetting 		CODE           	0913	0000	208
+		_getKey        		CODE           	0CE9	0000	792
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Keypad.h estimated size: 1000
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul16.c
+		___wmul        		CODE           	1E4F	0000	34
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\Umul16.c estimated size: 34
+
+shared
+		__stringtab    		STRCODE        	1000	0000	19
+		__initialization		CODE           	07C7	0000	54
+		_FONT_3x5      		STRCODE        	1012	0000	289
+
+shared estimated size: 362
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Serial.h
+		_serialWrite   		CODE           	1D98	0000	19
+		_serialBegin   		CODE           	153B	0000	104
+		_serialWriteText		CODE           	1F0E	0000	43
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\include\CloudX/Serial.h estimated size: 166
+
+C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c
+		_LCD_clear     		CODE           	1DF4	0000	31
+		_readAndStore  		CODE           	0132	0000	424
+		_readKeys      		CODE           	09E2	0000	216
+		_main          		CODE           	02D9	0000	1263
+		_compareTimeArray		CODE           	1EE5	0000	42
+		_ReadArrayFromRAM		CODE           	1672	0000	127
+		_SetupTime     		CODE           	0B9E	0000	332
+		_writeArrayToRAM		CODE           	1771	0000	144
+
+C:/Users/systematic/Documents/embedded_project/XC8/CLOUDX_korede/SMART_BELL_NOKIA/College_bell.c estimated size: 2579
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awmod.c
+		___awmod       		CODE           	13DF	0000	76
+
+C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\awmod.c estimated size: 76
+
