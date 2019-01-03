@@ -1,4 +1,4 @@
-This C code was written and tested on the cloudx microcontroller board which is a development board based on the pic16f877a 
+This C code was written and tested on the cloudx microcontroller board which is a development board based on the pic series 
 the code is tested and trusted , 
 the bell system uses ds1302 rtc moodule, keypad , and nokia 5110 display to collect
 **1. no of times to rings
